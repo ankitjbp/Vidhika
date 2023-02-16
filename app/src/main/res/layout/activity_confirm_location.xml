@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmSubmitActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/organization_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/submit_location_msg"
+        android:textColor="#E91E63"
+        android:textColorLink="#E91E63"
+        android:textSize="32sp"
+        android:layout_marginTop="57sp"
+        />
+
+        <TextView
+            android:id="@+id/location_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#E91E63"
+            android:textColorLink="#E91E63"
+            android:textSize="32sp"
+            android:layout_marginTop="57sp"
+            android:visibility="invisible"
+            />
+
+
+        <TextView
+        android:id="@+id/location_remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Remark "
+        android:textColor="#5E1E0B"/>
+
+
+    <EditText
+        android:id="@+id/remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@xml/input"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"/>
+
+    <Button
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/btn_start_location_updates"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:background="#E91E63"
+        android:text="@string/mark_location"
+        android:textColor="#FFFFFF"
+        />
+
+
+</LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

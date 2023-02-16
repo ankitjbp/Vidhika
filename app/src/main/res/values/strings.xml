@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Vidhika</string>
+
+    <string name="title">VIDHIKA</string>
+    <string name="title_hi">विधिका</string>
+    <string name="organization_title_hi">मध्यप्रदेश राज्य विधिक सेवा प्राधिकरण </string>
+
+
+
+    <string name="organization_title">Madhya Pradesh State Legal Services Authority</string>
+    <string name="website_url"><a href="http://mpslsa.gov.in">http://mpslsa.gov.in</a></string>
+    <string name="helpline"> <a href="tel:15100">Helpline Number - 15100</a></string>
+    <string name="helpline_hi"> <a href="tel:15100">हेल्पलाइन नंबर (टोल फ्री ) - 15100</a></string>
+    <string name="home_grv_btn"> Click For Grievance</string>
+    <string name="confirmation_msg"> Your Grievance is submitted. Concern DLSA will contact you shortly.</string>
+    <string name="confirmation_login_msg">You are logged in Successfully.</string>
+    <string name="location_final_msg">Your Location Marked Successfully</string>
+    <string name="districts_prompt"> Select Location.</string>
+    <string name="about_us"> About US</string>
+    <string name="start_updates">Start Location</string>
+    <string name="stop_updates">Stop Location</string>
+    <string name="get_last_location">Get Last Location</string>
+    <string name="submit_location_msg">Mark Visit Location</string>
+    <string name="mark_location">Save Task and Location</string>
+
+    <string-array name="districts">
+        <item>SelectDistrict</item>
+        <item>Agar</item>
+        <item>Alirajpur</item>
+        <item>Anuppur</item>
+        <item>Ashoknagar</item>
+        <item>Balaghat</item>
+        <item>Barwani</item>
+        <item>Betul</item>
+        <item>Bhind</item>
+        <item>Bhopal</item>
+        <item>Burhanpur</item>
+        <item>Chhatarpur</item>
+        <item>Chhindwara</item>
+        <item>Damoh</item>
+        <item>Datia</item>
+        <item>Dewas</item>
+        <item>Dhar</item>
+        <item>Dindori</item>
+        <item>Guna</item>
+        <item>Gwalior</item>
+        <item>Harda</item>
+        <item>Hoshangabad</item>
+        <item>Indore</item>
+        <item>Jabalpur</item>
+        <item>Jhabua</item>
+        <item>Katni</item>
+        <item>Khandwa</item>
+        <item>Khargone</item>
+        <item>Mandla</item>
+        <item>Mandleshwar</item>
+        <item>Mandsaur</item>
+        <item>Morena</item>
+        <item>Narsinghpur</item>
+        <item>Neemuch</item>
+        <item>Niwari</item>
+        <item>Panna</item>
+        <item>Raisen</item>
+        <item>Rajgarh</item>
+        <item>Ratlam</item>
+        <item>Rewa</item>
+        <item>Sagar</item>
+        <item>Satna</item>
+        <item>Sehore</item>
+        <item>Seoni</item>
+        <item>Shahdol</item>
+        <item>Shajapur</item>
+        <item>Sheopur</item>
+        <item>Shivpuri</item>
+        <item>Sidhi</item>
+        <item>Singrauli</item>
+        <item>Tikamgarh</item>
+        <item>Ujjain</item>
+        <item>Umaria</item>
+        <item>Vidisha</item>
+
+    </string-array>
+    districts
+
+</resources>

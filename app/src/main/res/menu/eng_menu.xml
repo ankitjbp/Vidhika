@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/my_grievances"
+        android:title="My Pending Grievances" />
+    <item
+        android:id="@+id/my_grievances_completed"
+        android:title="Resolved Grievance" />
+    <item
+        android:id="@+id/alloted_plv"
+        android:title="Alloted Grievances to Me" />
+
+<!--    <item-->
+<!--    android:id="@+id/location_remark"-->
+<!--    android:title="Save Location" />-->
+
+    <item
+        android:id="@+id/start_tracking"
+        android:title="Start Tracking" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+
+<!--    <item-->
+<!--        android:id="@+id/register_with_file"-->
+<!--        android:title="Register Grievance with File"-->
+<!--        android:visibility="invisible"/>-->
+
+
+
+<!--    <item-->
+<!--            android:id="@+id/about_us"-->
+<!--            android:title="About Us"-->
+<!--        android:visibility="invisible"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/legal_aid"-->
+<!--            android:title="Legal Aid"-->
+<!--            android:visibility="invisible"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/pla"-->
+<!--        android:title="PLA"-->
+<!--        android:visibility="invisible"/>-->
+<!--    <item-->
+<!--        android:id="@+id/plv"-->
+<!--        android:title="PLV"-->
+<!--        android:visibility="invisible"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/profile"-->
+<!--        android:title="My Profile"-->
+<!--        android:visibility="invisible"/>-->
+<!--    <item-->
+<!--        android:id="@+id/location"-->
+<!--        android:title="My Location"-->
+<!--        android:visibility="invisible"/>-->
+
+
+
+</menu>

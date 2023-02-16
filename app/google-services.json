@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "675822642931",
+    "project_id": "vidhika",
+    "storage_bucket": "vidhika.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675822642931:android:b134ed3b4fbb2b99ecf986",
+        "android_client_info": {
+          "package_name": "com.myslsa.vidhika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675822642931-j10o5v3acq3es9vf1phpm71rv62g8m5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEljqCuOjVwXI5B3BzeWHSvD9VUO0Akt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675822642931-j10o5v3acq3es9vf1phpm71rv62g8m5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

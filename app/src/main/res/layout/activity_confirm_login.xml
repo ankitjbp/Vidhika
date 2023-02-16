@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmSubmitActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/organization_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/confirmation_login_msg"
+        android:textColor="#E91E63"
+        android:textColorLink="#E91E63"
+        android:textSize="32sp"
+        android:layout_marginTop="57sp"
+        />
+
+    <Button
+        android:id="@+id/alloted"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="Alloted Grievances"
+        android:textColor="#FFFFFF"
+        android:background="#E91E63"/>
+
+
+    <Button
+        android:id="@+id/accepted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:background="#E91E63"
+        android:text="Closed Grievances"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="190dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/completed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="Completed Grievance"
+        android:textColor="#FFFFFF"
+        android:background="#E91E63"
+        android:visibility="invisible"/>
+
+
+
+
+</RelativeLayout>

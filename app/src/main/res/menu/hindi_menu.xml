@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/register"
+        android:title="शिकायत दर्ज करें" />
+
+    <item
+        android:id="@+id/my_grievances"
+        android:title="मेरी शिकायतें " />
+
+    <item
+            android:id="@+id/about_us"
+            android:title="सलसा के बारे में " />
+
+        <item
+            android:id="@+id/legal_aid"
+            android:title="विधिक सहायता " />
+
+    <item
+        android:id="@+id/pla"
+        android:title="पारा लीगल एडवोकेट" />
+    <item
+        android:id="@+id/plv"
+        android:title="पारा लीगल वॉलेंटेर्स " />
+
+<!--        <item-->
+<!--            android:id="@+id/profile"-->
+<!--            android:title="My Profile" />-->
+
+
+
+</menu>

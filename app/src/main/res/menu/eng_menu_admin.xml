@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="268dp"-->
+<!--        android:layout_height="137dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_weight="40"-->
+<!--        app:srcCompat="@mipmap/ic_launcher_foreground" />-->
+
+    <item android:id="@+id/grievance"
+        android:icon="@drawable/home"
+        android:title="Pending Grievances"
+        app:showAsAction="never"
+        android:visible="false"/>
+<!--    <item android:id="@+id/verify"-->
+<!--        android:icon="@drawable/home"-->
+<!--        android:title="Verify"-->
+<!--        app:showAsAction="never" />-->
+<!--    <item android:id="@+id/location"-->
+<!--        android:icon="@drawable/home"-->
+<!--        android:title="My DLSA Acitivities"-->
+<!--        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/alloted_dlsa"
+        android:title="Alloted Grievances to Your DLSA"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+    <item android:id="@+id/help"
+        android:icon="@drawable/home"
+        android:title="Help"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+</menu>
